@@ -1,0 +1,1729 @@
+.icon-bar .icon {
+  display: none;
+}
+/* laptop */
+@media (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+   {
+    .icon-bar {
+        width: 100%;
+        overflow: hidden;
+        background-color: #333;
+        background: rgb(44, 165, 155);
+        box-sizing: border-box;
+      }
+      .icon-bar a {
+        width: 25%;
+        font-size: 1.4rem;
+        padding: 5px 0px;
+        float: left;
+        text-align: center;
+        background-color: gray;
+        color: white;
+        margin: 0px;
+      }
+      .icon-bar a.active {
+        background: rgb(44, 165, 155);
+      }
+      .icon-bar a:hover {
+        background-color: #a52c36;
+      }
+      a {
+        text-decoration: none;
+      } 
+      body {
+        font-family: "Raleway", sans-serif;
+        height: 100vh;
+        width:100%;
+        background: #333 url("./images/pexels-pixabay-34107.jpg") no-repeat center center/
+          cover;
+        background-attachment: fixed;
+        color: rgb(216, 201, 201);
+        margin:0px;
+        box-sizing: border-box;
+      }
+      #mybutton {
+        left: 96%;
+        top: 92%;   
+        height: 5vh;
+        width: 5vh;
+      }
+      .description {
+        margin: 0;
+        margin-left: 3%;
+        padding: 3%;
+        padding-top: 1%;
+        width: 70vw;
+        font-size: 1.4rem;
+      }
+      .image {
+        height: 60vh;
+        margin-top: 1.5%;
+      }
+      
+      .img-aboutMe {
+        width: 40vh;
+        height: 50vh;
+        object-fit: cover;
+      }
+
+.contactLogo {
+    text-align: center;
+    padding: 1%;
+    width: 40vw;
+    margin: 0 auto;
+    margin-top: 8%;
+    transform: translateY(60%);
+  }
+  #work-container {
+    height: 100vh;
+    background: url(./images/work.jpeg) center no-repeat fixed;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
+.scholarcat {
+    margin-top: 20%;
+  
+  }
+  .github {
+    margin-top:5%;
+  }
+}
+/* Tablet responsive */
+@media(min-width:851px) and (max-width: 1100px)and (orientation: portrait)and (-webkit-min-device-pixel-ratio: 2) {
+    @media(max-height:1400px){
+        body {
+          background: #333 url("./images/newback.jpeg") no-repeat center center/cover;
+          background-attachment: fixed;
+        }
+        .icon-bar a {
+          display: none;
+          padding: 2.5%;
+          font-size: 1.5rem;
+        }
+        .icon-bar a.icon {
+          float: right;
+          display: block;
+          background: rgb(44, 165, 155);
+          text-align: right;
+          margin-right: 2%;
+        }
+        .icon-bar a.active:hover {
+          background: rgb(44, 165, 155);
+        }
+        .icon-bar.responsive {
+          position: relative;
+        }
+        .icon-bar.responsive .icon {
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+        .icon-bar.responsive a:not(.icon) {
+          float: none;
+          display: block;
+          text-align: left;
+          width: 100%;
+        }
+        h1 {
+          font-size: 5rem;
+        }
+        h2 {
+          font-size: 2.7rem;
+        }
+        #about1,
+        #skills1 {
+          width: 40%;
+        }
+        #about1 > h2,
+        #skills1 > h2 {
+          font-size: 1.8rem;
+        }
+        .aboutMe {
+          flex-direction: row;
+          padding: 0%;
+          width: 100vw;
+        }
+        .description {
+          margin: 0px auto;
+          width: 60vw;
+          font-size: 1.5rem;
+          text-align: justify;
+          position: relative;
+          margin-top: 5%;
+          margin-left: -2%;
+        }
+        .image {
+          height: 45vh;
+          width: 35vw;
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: relative;
+          margin-top: 0%;
+        }
+        .img-aboutMe {
+          text-align: center;
+          height: 35vh;
+          object-fit: cover;
+          width: 32vw;
+        }
+        .quotes {
+          font-size: 1.8rem;
+          width: 60vw;
+          margin: 0px auto;
+          position: relative;
+          margin-left: 0%;
+        }
+        #logoContainer {
+          height: 85vh;
+          padding-bottom: 0;
+        }
+        .logo {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          background-color: #047979;
+          height: 50vh;
+        }
+        .logo1 {
+          justify-content: center;
+          align-items: center;
+          display: flex;
+          flex-direction: row;
+          flex: 50%;
+          margin: 2%;
+        }
+        .one {
+          left: 0;
+        }
+        .two {
+          right: 0;
+          position: relative;
+          bottom: 10%;
+        }
+        .html,
+        .css,
+        .js,
+        .photoshop {
+          width: 13vw;
+          margin-top: 15%;
+        }
+        .react,
+        .git,
+        .cpp,
+        .c {
+          width: 13vw;
+          margin-top: 12%;
+        }
+        .react {
+          width: 17vw;
+        }
+        .c {
+          width: 17vw;
+        }
+        #work1{
+            width:25%;
+        }
+        #work1>h2{
+            font-size:1.8rem;
+        }
+        #work-container {
+          height: 90vh;
+        }
+        .worklogo {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+        .scholarcat {
+          margin-top: 35%;
+          width: 35vw;
+        }
+        .github {
+          margin-left: 10%;
+      
+          margin-top: 20%;
+          width: 55vw;
+        }
+        /* .worklogo a img {
+          visibility: visible;
+          opacity: 1;
+          transition: all 0.5s ease-in;
+        }
+        .worklogo a img.in-view {
+          transform: none;
+          visibility: visible;
+          opacity: 1;
+        }
+        .worklogo a img {
+          transform: none;
+        } */
+        #mybutton {
+          height: 3.5vh;
+          width: 3.5vh;
+          left: 96%;
+          top: 93%;
+          border-radius: 50%;
+        }
+        .facebook {
+          width: 8.5vw;
+          margin-bottom: 0%;
+          margin-right: 8%;
+        }
+        .viber {
+          width: 13.5vw;
+          margin-right: 0%;
+        }
+        .gmail {
+          width: 9vw;
+          height: 8.5vw;
+          margin-right: 3%;
+        }
+        .whatsapp {
+          margin-bottom: 0%;
+          width: 14.5vw;
+        }
+        .contact1{
+            width:25%;
+        }
+        .contact1>h2{
+            font-size:1.8rem;
+        }
+        #contact-container {
+          height: 80vh;
+          background: url("./images/stars.jpeg") center no-repeat fixed;
+          background-size: cover;
+        }
+        .contactLogo {
+          height: 10vh;
+          text-align: center;
+          padding: 1%;
+          width: 100vw;
+          margin: 0 auto;
+          margin-top: 8%;
+          transform: translateY(150%);
+        }
+        .footer {
+            height: 15.5vh;
+            background: rgb(6, 63, 110);
+            display: flex;
+            flex-direction: row;
+            padding: 2%;
+            font-size: 1.5rem;
+            width: 100%;
+            overflow:hidden;
+          }
+          
+          .footerImage {
+            width: 8vw;
+            margin-right: 15%;
+          }
+          .txt1 {
+            flex: 50%;
+            /* text-align: center; */
+          }
+          .txt2 {
+            flex: 50%;
+            /* background:red; */
+            margin-top: 0.5%;
+            text-align: right;
+            margin-right: 3%;
+          }
+      }
+} 
+@media(min-width:600px) and (max-width: 850px)and (orientation: portrait)  and (-webkit-min-device-pixel-ratio: 2) {
+    @media(max-height:1400px){
+        body {
+          background: #333 url("./images/newback.jpeg") no-repeat center center/cover;
+          background-attachment: fixed;
+        }
+        .icon-bar a {
+          display: none;
+          padding: 2.5%;
+          font-size: 1.5rem;
+        }
+        .icon-bar a.icon {
+          float: right;
+          display: block;
+          background: rgb(44, 165, 155);
+          text-align: right;
+          margin-right: 2%;
+        }
+        .icon-bar a.active:hover {
+          background: rgb(44, 165, 155);
+        }
+        .icon-bar.responsive {
+          position: relative;
+        }
+        .icon-bar.responsive .icon {
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+        .icon-bar.responsive a:not(.icon) {
+          float: none;
+          display: block;
+          text-align: left;
+          width: 100%;
+        }
+        h1 {
+          font-size: 4.3rem;
+        }
+        h2 {
+          font-size: 2rem;
+        }
+        #about1,
+        #skills1 {
+          width: 40%;
+        }
+        #about1 > h2,
+        #skills1 > h2 {
+          font-size: 1.8rem;
+        }
+        .aboutMe {
+          flex-direction: column;
+          padding: 0%;
+          width: 100vw;
+        }
+        .image {
+            height: 40vh;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          .quotes {
+            font-size: 1.8rem;
+            width: 80vw;
+            margin: 0px auto;
+          }
+          .aboutMe {
+            flex-direction: column;
+            padding: 0%;
+            width: 100vw;
+          }
+          .description {
+            margin: 0px auto;
+            width: 90vw;
+            font-size: 1.5rem;
+            text-align: justify;
+          }
+        
+          .img-aboutMe {
+            /* text-align:center; */
+            height: 35vh;
+            object-fit: cover;
+            width: 40vw;
+          }
+        #logoContainer {
+          height: 85vh;
+          padding-bottom: 0;
+        }
+        .logo {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          background-color: #047979;
+          height: 50vh;
+        }
+        .logo1 {
+          justify-content: center;
+          align-items: center;
+          display: flex;
+          flex-direction: row;
+          flex: 50%;
+          margin: 2%;
+        }
+        .one {
+          left: 0;
+        }
+        .two {
+          right: 0;
+          position: relative;
+          bottom: 10%;
+        }
+        .html,
+        .css,
+        .js,
+        .photoshop {
+          width: 13vw;
+          margin-top: 15%;
+        }
+        .react,
+        .git,
+        .cpp,
+        .c {
+          width: 13vw;
+          margin-top: 12%;
+        }
+        .react {
+          width: 17vw;
+        }
+        .c {
+          width: 17vw;
+        }
+        #work1{
+            width:25%;
+        }
+        #work1>h2{
+            font-size:1.8rem;
+        }
+        #work-container {
+          height: 90vh;
+        }
+        .worklogo {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+        .scholarcat {
+          margin-top: 35%;
+          width: 35vw;
+        }
+        .github {
+          margin-left: 10%;
+      
+          margin-top: 20%;
+          width: 55vw;
+        }
+        /* .worklogo a img {
+          visibility: visible;
+          opacity: 1;
+          transition: all 0.5s ease-in;
+        }
+        .worklogo a img.in-view {
+          transform: none;
+          visibility: visible;
+          opacity: 1;
+        }
+        .worklogo a img {
+          transform: none;
+        } */
+        #mybutton {
+          height: 3.5vh;
+          width: 3.5vh;
+          left: 96%;
+          top: 93%;
+          border-radius: 50%;
+        }
+        .facebook {
+          width: 9.5vw;
+          margin-bottom: 0%;
+          margin-right: 8%;
+        }
+        .viber {
+          width: 14.5vw;
+          margin-right: 0%;
+        }
+        .gmail {
+          width: 10vw;
+          height: 9.5vw;
+          margin-right: 3%;
+        }
+        .whatsapp {
+          margin-bottom: 0%;
+          width: 15.5vw;
+        }
+        .contact1{
+            width:25%;
+        }
+        .contact1>h2{
+            font-size:1.8rem;
+        }
+        #contact-container {
+          height: 80vh;
+          background: url("./images/stars.jpeg") center no-repeat fixed;
+          background-size: cover;
+        }
+        .contactLogo {
+          height: 10vh;
+          text-align: center;
+          padding: 1%;
+          width: 100vw;
+          margin: 0 auto;
+          margin-top: 8%;
+          transform: translateY(150%);
+        }
+        .footer {
+            height: 15.5vh;
+            background: rgb(6, 63, 110);
+            display: flex;
+            flex-direction: row;
+            padding: 2%;
+            font-size: 1.3rem;
+            width: 100%;
+            overflow:hidden;
+          }
+          
+          .footerImage {
+            width: 8vw;
+            margin-right: 15%;
+          }
+          .txt1 {
+            flex: 50%;
+            /* text-align: center; */
+          }
+          .txt2 {
+            flex: 50%;
+            /* background:red; */
+            margin-top: 0.5%;
+            text-align: right;
+            margin-right: 3%;
+          }
+      }
+} 
+
+
+
+/* //mobile responsive */
+@media (max-width: 435px)and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    @media(max-height:950px){
+
+        body {
+            background: #333 url("./images/newback.jpeg") no-repeat center center/cover;
+            background-attachment: fixed;
+          }
+          .icon-bar a {
+            display: none;
+            font-size: 1.2rem;
+            padding: 2.8%;
+            font-size: 1rem;
+          }
+          .icon-bar a.icon {
+            float: right;
+            display: block;
+            background: rgb(44, 165, 155);
+            text-align: right;
+            margin-right: 2%;
+          }
+          .icon-bar a.active:hover {
+            background: rgb(44, 165, 155);
+          }
+          .icon-bar.responsive {
+            position: relative;
+          }
+          .icon-bar.responsive .icon {
+            position: absolute;
+            right: 0;
+            top: 0;
+          }
+          .icon-bar.responsive a:not(.icon) {
+            float: none;
+            display: block;
+            text-align: left;
+            width: 100%;
+          }
+          h1 {
+            font-size: 2.5rem;
+          }
+          h2 {
+            font-size: 1.5rem;
+          }
+          #about1,
+          #skills1 {
+            width: 40%;
+          }
+          #about1 > h2,
+          #skills1 > h2 {
+            font-size: 1.1rem;
+          }
+        
+          .image {
+            height: 36vh;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          .quotes {
+            font-size: 1.2rem;
+            width: 80vw;
+            margin: 0px auto;
+          }
+          .aboutMe {
+            flex-direction: column;
+            padding: 0%;
+            width: 100vw;
+          }
+          .description {
+            margin: 0px auto;
+            width: 90vw;
+            font-size: 1.1rem;
+            text-align: justify;
+          }
+        
+          .img-aboutMe {
+            /* text-align:center; */
+            height: 30vh;
+            object-fit: cover;
+            width: 52vw;
+          }
+          #logoContainer {
+            background: url("./images/pp.jpeg") center no-repeat fixed;
+            background-size: cover;
+            height: 80vh;
+            padding-bottom: 0;
+          }
+          .logo {
+            display: flex;
+            flex-direction: row;
+            height: 55vh;
+            justify-content: center;
+            align-items: center;
+          }
+          .logo1 {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+          .one {
+            position: relative;
+            left: 9%;
+          }
+          .two {
+            position: relative;
+            right: 9%;
+          }
+          .html,
+          .css,
+          .js,
+          .photoshop {
+            width: 17vw;
+            margin-top: 15%;
+          }
+          .react,
+          .git,
+          .cpp,
+          .c {
+            width: 17vw;
+            margin-top: 12%;
+          }
+          .react {
+            margin-top: -20%;
+            width: 21vw;
+          }
+          .c {
+            width: 21vw;
+          }
+          .html {
+            margin-top: -20%;
+          }
+          #work-container {
+            height: 65vh;
+            background: url("./images/work.jpeg") center no-repeat fixed;
+            background-size: cover;
+          }
+          .scholarcat {
+            margin-top: 40%;
+            width: 40vw;
+          }
+          .github {
+            margin-top: 20%;
+            width: 60vw;
+          }
+          #contact-container {
+            height: 65vh;
+            background: url("./images/stars.jpeg") center no-repeat fixed;
+            background-size: cover;
+          }
+          .contactLogo {
+            height: 50vh;
+            text-align: center;
+            padding: 1%;
+            width: 100vw;
+            margin: 0 auto;
+            margin-top: 8%;
+            transform: translateY(35%);
+          }
+          .facebook {
+            width: 13.5vw;
+            margin-bottom: 0%;
+            margin-right: 8%;
+          }
+          .viber {
+            width: 21.5vw;
+            margin-right: 0%;
+          }
+          .gmail {
+            width: 14vw;
+            height: 13.5vw;
+            margin-right: 3%;
+          }
+          .whatsapp {
+            margin-bottom: 1%;
+            width: 22.5vw;
+          }
+          .footer {
+            flex-direction: column;
+            height: 15vh;
+            font-size: 1rem;
+            justify-content: center;
+            align-items: center;
+          }
+          .footerImage {
+            width: 14vw;
+            position: relative;
+            margin-right: 20%;
+          }
+          .txt1 {
+            margin: 0;
+          }
+          .txt2 {
+            margin: 0;
+          }
+          #mybutton {
+            height: 4vh;
+            width: 3.5vh;
+            left: 95%;
+            top: 94.5%;
+            border-radius: 20%;
+          }
+          .fa-angle-double-up {
+            color: white;
+            font-size: 1.2rem;
+          }
+          #work1,
+          .contact1 {
+            width: 39%;
+          }
+          .contact1 > h2,
+          #work1 > h2 {
+            font-size: 1.1rem;
+          }
+          .worklogo {
+            position: relative;
+            top: 2%;
+          }
+          .worklogo a img {
+            visibility: visible;
+            opacity: 1;
+            transition: all 0.5s ease-in;
+          }
+          .worklogo a img.in-view {
+            transform: none;
+            visibility: visible;
+            opacity: 1;
+          }
+          .worklogo a img {
+            transform: none;
+          }
+    } @media(max-height:750px){
+
+        body {
+            background: #333 url("./images/newback.jpeg") no-repeat center center/cover;
+            background-attachment: fixed;
+          }
+          .icon-bar a {
+            display: none;
+            font-size: 1.2rem;
+            padding: 2.8%;
+            font-size: 1rem;
+          }
+          .icon-bar a.icon {
+            float: right;
+            display: block;
+            background: rgb(44, 165, 155);
+            text-align: right;
+            margin-right: 2%;
+          }
+          .icon-bar a.active:hover {
+            background: rgb(44, 165, 155);
+          }
+          .icon-bar.responsive {
+            position: relative;
+          }
+          .icon-bar.responsive .icon {
+            position: absolute;
+            right: 0;
+            top: 0;
+          }
+          .icon-bar.responsive a:not(.icon) {
+            float: none;
+            display: block;
+            text-align: left;
+            width: 100%;
+          }
+          h1 {
+            font-size: 2.5rem;
+          }
+          h2 {
+            font-size: 1.5rem;
+          }
+          #about1,
+          #skills1 {
+            width: 40%;
+          }
+          #about1 > h2,
+          #skills1 > h2 {
+            font-size: 1.1rem;
+          }
+        
+          .image {
+            height: 36vh;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          .quotes {
+            font-size: 1.2rem;
+            width: 80vw;
+            margin: 0px auto;
+          }
+          .aboutMe {
+            flex-direction: column;
+            padding: 0%;
+            width: 100vw;
+          }
+          .description {
+            margin: 0px auto;
+            width: 90vw;
+            font-size: 1.1rem;
+            text-align: justify;
+          }
+        
+          .img-aboutMe {
+            /* text-align:center; */
+            height: 30vh;
+            object-fit: cover;
+            width: 52vw;
+          }
+          #logoContainer {
+            background: url("./images/pp.jpeg") center no-repeat fixed;
+            background-size: cover;
+            height: 90vh;
+            padding-bottom: 0;
+          }
+          .logo {
+            display: flex;
+            flex-direction: row;
+            height: 65vh;
+            justify-content: center;
+            align-items: center;
+          }
+          .logo1 {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+          .one {
+            position: relative;
+            left: 9%;
+          }
+          .two {
+            position: relative;
+            right: 9%;
+          }
+          .html,
+          .css,
+          .js,
+          .photoshop {
+            width: 17vw;
+            margin-top: 15%;
+          }
+          .react,
+          .git,
+          .cpp,
+          .c {
+            width: 17vw;
+            margin-top: 12%;
+          }
+          .react {
+            margin-top: -20%;
+            width: 21vw;
+          }
+          .c {
+            width: 21vw;
+          }
+          .html {
+            margin-top: -20%;
+          }
+          #work-container {
+            height: 75vh;
+            background: url("./images/work.jpeg") center no-repeat fixed;
+            background-size: cover;
+          }
+          .scholarcat {
+            margin-top: 40%;
+            width: 40vw;
+          }
+          .github {
+            margin-top: 20%;
+            width: 60vw;
+          }
+          #contact-container {
+            height: 65vh;
+            background: url("./images/stars.jpeg") center no-repeat fixed;
+            background-size: cover;
+          }
+          .contactLogo {
+            height: 50vh;
+            text-align: center;
+            padding: 1%;
+            width: 100vw;
+            margin: 0 auto;
+            margin-top: 8%;
+            transform: translateY(35%);
+          }
+          .facebook {
+            width: 13.5vw;
+            margin-bottom: 0%;
+            margin-right: 8%;
+          }
+          .viber {
+            width: 21.5vw;
+            margin-right: 0%;
+          }
+          .gmail {
+            width: 14vw;
+            height: 13.5vw;
+            margin-right: 3%;
+          }
+          .whatsapp {
+            margin-bottom: 1%;
+            width: 22.5vw;
+          }
+          .footer {
+            flex-direction: column;
+            height: 15vh;
+            font-size: 1rem;
+            justify-content: center;
+            align-items: center;
+          }
+          .footerImage {
+            width: 14vw;
+            position: relative;
+            margin-right: 20%;
+          }
+          .txt1 {
+            margin: 0;
+          }
+          .txt2 {
+            margin: 0;
+          }
+          #mybutton {
+            height: 4vh;
+            width: 3.5vh;
+            left: 95%;
+            top: 94.5%;
+            border-radius: 20%;
+          }
+          .fa-angle-double-up {
+            color: white;
+            font-size: 1.2rem;
+          }
+          #work1,
+          .contact1 {
+            width: 39%;
+          }
+          .contact1 > h2,
+          #work1 > h2 {
+            font-size: 1.1rem;
+          }
+          .worklogo {
+            position: relative;
+            top: 2%;
+          }
+          .worklogo a img {
+            visibility: visible;
+            opacity: 1;
+            transition: all 0.5s ease-in;
+          }
+          .worklogo a img.in-view {
+            transform: none;
+            visibility: visible;
+            opacity: 1;
+          }
+          .worklogo a img {
+            transform: none;
+          }
+    }
+}
+
+
+
+
+    /* //iphone 6,7,8 */
+@media (max-width: 400px)and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    @media(max-height:875px){
+        body {
+            background: #333 url("./images/newback.jpeg") no-repeat center center/cover;
+            background-attachment: fixed;
+          }
+          .icon-bar a {
+            display: none;
+            font-size: 1.2rem;
+            padding: 2.8%;
+            font-size: 1rem;
+          }
+          .icon-bar a.icon {
+            float: right;
+            display: block;
+            background: rgb(44, 165, 155);
+            text-align: right;
+            margin-right: 2%;
+          }
+          .icon-bar a.active:hover {
+            background: rgb(44, 165, 155);
+          }
+          .icon-bar.responsive {
+            position: relative;
+          }
+          .icon-bar.responsive .icon {
+            position: absolute;
+            right: 0;
+            top: 0;
+          }
+          .icon-bar.responsive a:not(.icon) {
+            float: none;
+            display: block;
+            text-align: left;
+            width: 100%;
+          }
+          h1 {
+            font-size: 2.2rem;
+          }
+          h2 {
+            font-size: 1.2rem;
+          }
+          #about1,
+          #skills1 {
+            width: 40%;
+          }
+          #about1 > h2,
+          #skills1 > h2 {
+            font-size: 1.1rem;
+          }
+        
+          .image {
+            height: 35vh;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          .quotes {
+            font-size: 1.2rem;
+            width: 80vw;
+            margin: 0px auto;
+          }
+          .aboutMe {
+            flex-direction: column;
+            padding: 0%;
+            width: 100vw;
+          }
+          .description {
+            margin: 0px auto;
+            width: 90vw;
+            font-size: 1.1rem;
+            text-align: justify;
+          }
+        
+          .img-aboutMe {
+            /* text-align:center; */
+            height: 27vh;
+            object-fit: cover;
+            width: 47vw;
+          }
+          #logoContainer {
+            background: url("./images/pp.jpeg") center no-repeat fixed;
+            background-size: cover;
+            height: 80vh;
+            padding-bottom: 0;
+          }
+          .logo {
+            display: flex;
+            flex-direction: row;
+            height: 55vh;
+            justify-content: center;
+            align-items: center;
+          }
+          .logo1 {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+          .one {
+            position: relative;
+            left: 9%;
+          }
+          .two {
+            position: relative;
+            right: 9%;
+          }
+          .html,
+          .css,
+          .js,
+          .photoshop {
+            width: 17vw;
+            margin-top: 15%;
+          }
+          .react,
+          .git,
+          .cpp,
+          .c {
+            width: 17vw;
+            margin-top: 12%;
+          }
+          .react {
+            margin-top: -20%;
+            width: 21vw;
+          }
+          .c {
+            width: 21vw;
+          }
+          .html {
+            margin-top: -20%;
+          }
+          #work-container {
+            height: 65vh;
+            background: url("./images/work.jpeg") center no-repeat fixed;
+            background-size: cover;
+          }
+          .scholarcat {
+            margin-top: 40%;
+            width: 40vw;
+          }
+          .github {
+            margin-top: 20%;
+            width: 60vw;
+          }
+          #contact-container {
+            height: 65vh;
+            background: url("./images/stars.jpeg") center no-repeat fixed;
+            background-size: cover;
+          }
+          .contactLogo {
+            height: 55vh;
+            text-align: center;
+            padding: 1%;
+            width: 100vw;
+            margin: 0 auto;
+            margin-top: 8%;
+            transform: translateY(30%);
+          }
+          .facebook {
+            width: 13.5vw;
+            margin-bottom: 0%;
+            margin-right: 8%;
+          }
+          .viber {
+            width: 21.5vw;
+            margin-right: 0%;
+          }
+          .gmail {
+            width: 14vw;
+            height: 13.5vw;
+            margin-right: 3%;
+          }
+          .whatsapp {
+            margin-bottom: 1%;
+            width: 22.5vw;
+          }
+          .footer {
+            flex-direction: column;
+            height: 15vh;
+            font-size: 0.9rem;
+            justify-content: center;
+            align-items: center;
+          }
+          .footerImage {
+            width: 14vw;
+            position: relative;
+            margin-right: 20%;
+          }
+          .txt1 {
+            margin: 0;
+          }
+          .txt2 {
+            margin: 0;
+          }
+          #mybutton {
+            height: 4vh;
+            width: 3.5vh;
+            left: 95%;
+            top: 94.5%;
+            border-radius: 20%;
+          }
+          .fa-angle-double-up {
+            color: white;
+            font-size: 1.2rem;
+          }
+          #work1,
+          .contact1 {
+            width: 39%;
+          }
+          .contact1 > h2,
+          #work1 > h2 {
+            font-size: 1.1rem;
+          }
+          .worklogo {
+            position: relative;
+            top: 2%;
+          }
+          .worklogo a img {
+            visibility: visible;
+            opacity: 1;
+            transition: all 0.5s ease-in;
+          }
+          .worklogo a img.in-view {
+            transform: none;
+            visibility: visible;
+            opacity: 1;
+          }
+          .worklogo a img {
+            transform: none;
+          }
+    }
+
+    @media(max-height:700px){
+  body {
+    background: #333 url("./images/newback.jpeg") no-repeat center center/cover;
+    background-attachment: fixed;
+  }
+  .icon-bar a {
+    display: none;
+    font-size: 1.2rem;
+    padding: 2.8%;
+    font-size: 1rem;
+  }
+  .icon-bar a.icon {
+    float: right;
+    display: block;
+    background: rgb(44, 165, 155);
+    text-align: right;
+    margin-right: 2%;
+  }
+  .icon-bar a.active:hover {
+    background: rgb(44, 165, 155);
+  }
+  .icon-bar.responsive {
+    position: relative;
+  }
+  .icon-bar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .icon-bar.responsive a:not(.icon) {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+  }
+  h1 {
+    font-size: 2.2rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  #about1,
+  #skills1 {
+    width: 40%;
+  }
+  #about1 > h2,
+  #skills1 > h2 {
+    font-size: 1.1rem;
+  }
+
+  .image {
+    height: 38vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .quotes {
+    font-size: 1.2rem;
+    width: 80vw;
+    margin: 0px auto;
+  }
+  .aboutMe {
+    flex-direction: column;
+    padding: 0%;
+    width: 100vw;
+  }
+  .description {
+    margin: 0px auto;
+    width: 90vw;
+    font-size: 1.1rem;
+    text-align: justify;
+  }
+
+  .img-aboutMe {
+    /* text-align:center; */
+    height: 33vh;
+    object-fit: cover;
+    width: 47vw;
+  }
+  #logoContainer {
+    background: url("./images/pp.jpeg") center no-repeat fixed;
+    background-size: cover;
+    height: 100vh;
+    padding-bottom: 0;
+  }
+  .logo {
+    display: flex;
+    flex-direction: row;
+    height: 65vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .one {
+    position: relative;
+    left: 9%;
+  }
+  .two {
+    position: relative;
+    right: 9%;
+  }
+  .html,
+  .css,
+  .js,
+  .photoshop {
+    width: 17vw;
+    margin-top: 15%;
+  }
+  .react,
+  .git,
+  .cpp,
+  .c {
+    width: 17vw;
+    margin-top: 12%;
+  }
+  .react {
+    margin-top: -20%;
+    width: 21vw;
+  }
+  .c {
+    width: 21vw;
+  }
+  .html {
+    margin-top: -20%;
+  }
+  #work-container {
+    height: 80vh;
+    background: url("./images/work.jpeg") center no-repeat fixed;
+    background-size: cover;
+  }
+  .scholarcat {
+    margin-top: 40%;
+    width: 40vw;
+  }
+  .github {
+    margin-top: 20%;
+    width: 60vw;
+  }
+  #contact-container {
+    height: 85vh;
+    background: url("./images/stars.jpeg") center no-repeat fixed;
+    background-size: cover;
+  }
+  .contactLogo {
+    height: 55vh;
+    text-align: center;
+    padding: 1%;
+    width: 100vw;
+    margin: 0 auto;
+    margin-top: 8%;
+    transform: translateY(40%);
+  }
+  .facebook {
+    width: 13.5vw;
+    margin-bottom: 0%;
+    margin-right: 8%;
+  }
+  .viber {
+    width: 21.5vw;
+    margin-right: 0%;
+  }
+  .gmail {
+    width: 14vw;
+    height: 13.5vw;
+    margin-right: 3%;
+  }
+  .whatsapp {
+    margin-bottom: 1%;
+    width: 22.5vw;
+  }
+  .footer {
+    flex-direction: column;
+    height: 15vh;
+    font-size: 0.9rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .footerImage {
+    width: 14vw;
+    position: relative;
+    margin-right: 20%;
+  }
+  .txt1 {
+    margin: 0;
+  }
+  .txt2 {
+    margin: 0;
+  }
+  #mybutton {
+    height: 4vh;
+    width: 3.5vh;
+    left: 95%;
+    top: 94.5%;
+    border-radius: 20%;
+  }
+  .fa-angle-double-up {
+    color: white;
+    font-size: 1.2rem;
+  }
+  #work1,
+  .contact1 {
+    width: 39%;
+  }
+  .contact1 > h2,
+  #work1 > h2 {
+    font-size: 1.1rem;
+  }
+  .worklogo {
+    position: relative;
+    top: 2%;
+  }
+  .worklogo a img {
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.5s ease-in;
+  }
+  .worklogo a img.in-view {
+    transform: none;
+    visibility: visible;
+    opacity: 1;
+  }
+  .worklogo a img {
+    transform: none;
+  }
+}
+
+}
+/* landscape*/
+@media (max-device-width: 930px)and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    @media(max-height:512px){
+  body {
+    background: #333 url("./images/newback.jpeg") no-repeat center center/cover;
+    background-attachment: fixed;
+  }
+  .icon-bar a {
+    display: none;
+    padding: 1.6%;
+    font-size: 0.9rem;
+  }
+  .icon-bar a.icon {
+    float: right;
+    display: block;
+    background: rgb(44, 165, 155);
+    text-align: right;
+    margin-right: 2%;
+  }
+  .icon-bar a.active:hover {
+    background: rgb(44, 165, 155);
+  }
+  .icon-bar.responsive {
+    position: relative;
+  }
+  .icon-bar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .icon-bar.responsive a:not(.icon) {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+  }
+  h1 {
+    font-size: 2.2rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  #about1,
+  #skills1 {
+    width: 40%;
+  }
+  #about1 > h2,
+  #skills1 > h2 {
+    font-size: 1.1rem;
+  }
+  .aboutMe {
+    flex-direction: row;
+    padding: 0%;
+    width: 100vw;
+  }
+  .description {
+    margin: 0px auto;
+    width: 60vw;
+    font-size: 1.1rem;
+    text-align: justify;
+    position: relative;
+    margin-top: 3%;
+    margin-left: -2%;
+  }
+  .image {
+    height: 85vh;
+    width: 35vw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 3.5%;
+  }
+  .img-aboutMe {
+    text-align: center;
+    height: 80vh;
+    object-fit: cover;
+    width: 30vw;
+  }
+  .quotes {
+    font-size: 1.2rem;
+    width: 60vw;
+    margin: 0px auto;
+    position: relative;
+    margin-left: 0%;
+  }
+  #logoContainer {
+    height: 150vh;
+    padding-bottom: 0;
+  }
+  .logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #047979;
+    height: 80vh;
+  }
+  .logo1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex: 50%;
+    margin: 2%;
+  }
+  .one {
+    left: 0;
+  }
+  .two {
+    right: 0;
+    position: relative;
+    bottom: 10%;
+  }
+  .html,
+  .css,
+  .js,
+  .photoshop {
+    width: 12vw;
+    margin-top: 15%;
+  }
+  .react,
+  .git,
+  .cpp,
+  .c {
+    width: 12vw;
+    margin-top: 12%;
+  }
+  .react {
+    width: 16vw;
+  }
+  .c {
+    width: 16vw;
+  }
+  #work-container {
+    height: 130vh;
+  }
+  .worklogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .scholarcat {
+    margin-top: 35%;
+    width: 30vw;
+  }
+  .github {
+    margin-left: 10%;
+
+    margin-top: 20%;
+    width: 50vw;
+  }
+  .worklogo a img {
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.5s ease-in;
+  }
+  .worklogo a img.in-view {
+    transform: none;
+    visibility: visible;
+    opacity: 1;
+  }
+  .worklogo a img {
+    transform: none;
+  }
+  #mybutton {
+    height: 8vh;
+    width: 8vh;
+    left: 96.5%;
+    top: 90%;
+    border-radius: 50%;
+  }
+  .facebook {
+    width: 8.5vw;
+    margin-bottom: 0%;
+    margin-right: 8%;
+  }
+  .viber {
+    width: 13.5vw;
+    margin-right: 0%;
+  }
+  .gmail {
+    width: 9vw;
+    height: 8.5vw;
+    margin-right: 3%;
+  }
+  .whatsapp {
+    margin-bottom: 0%;
+    width: 14.5vw;
+  }
+  #contact-container {
+    height: 100vh;
+    background: url("./images/stars.jpeg") center no-repeat fixed;
+    background-size: cover;
+  }
+  .contactLogo {
+    height: 10vh;
+    text-align: center;
+    padding: 1%;
+    width: 100vw;
+    margin: 0 auto;
+    margin-top: 8%;
+    transform: translateY(40%);
+  }
+}
+}
+
+
+
+
